@@ -1,0 +1,53 @@
+@import "./assets/library/bootstrap/css/bootstrap.rtl.min.css";
+@import "./assets/font/IRANSans/css/style.css";
+@import "./assets/style/normalize.css";
+
+
+.header {
+  border-bottom: 1px solid  #313133;
+}
+
+.fs-14px {
+  font-size: 14px;
+}
+
+.p-12px {
+  padding: 12px;
+}
+
+.right-side-header .image-avatar {
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.bg-transparent {
+  background-color: transparent;
+  border: none;
+}
+
+input {
+  font-family: "iransansx" !important;
+  font-size: 14px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.bg-custom-secondary {
+  background-color: #27292d;
+}
+
+.clint-wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  column-gap: 20px;
+}
+
+.clint-main {
+  height: 465px;
+}
+
+.clint-main img{
+  object-fit: cover;
+}
