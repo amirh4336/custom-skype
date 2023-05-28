@@ -92,7 +92,7 @@ function App() {
         <div className="container-fluid">
           <div className="row">
             <div className="col-3 bg-custom-secondary rounded"></div>
-            <div className="col-9 ps-5">
+            <div className="col-9 h-100 ps-5">
               <div className="clint-wrapper gap-x-2 mb-3">
                 <img className="w-100 rounded" src={avatar2} alt="sd" />
                 <img className="w-100 rounded" src={avatar2} alt="sd" />
@@ -102,7 +102,7 @@ function App() {
                 <img className="w-100 rounded" src={avatar2} alt="sd" />
               </div>
               <div className="clint-main mb-4">
-                <img className="w-100 h-100 rounded" src={avatar2} alt="sd" />
+                <img className="rounded w-100" src={avatar2} alt="sd" />
               </div>
               <div className="panel-bottom d-flex justify-content-center">
                 <button

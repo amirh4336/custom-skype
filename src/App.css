@@ -2,9 +2,8 @@
 @import "./assets/font/IRANSans/css/style.css";
 @import "./assets/style/normalize.css";
 
-
 .header {
-  border-bottom: 1px solid  #313133;
+  border-bottom: 1px solid #313133;
 }
 
 .fs-14px {
@@ -38,6 +37,7 @@ input:focus {
   background-color: #27292d;
 }
 
+
 .clint-wrapper {
   display: grid;
   grid-template-columns: repeat(6, minmax(0, 1fr));
@@ -45,9 +45,10 @@ input:focus {
 }
 
 .clint-main {
-  height: 465px;
+  height: 100%;
 }
 
-.clint-main img{
+.clint-main img {
   object-fit: cover;
+  max-height: 460px;
 }
